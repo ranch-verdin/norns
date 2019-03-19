@@ -60,7 +60,7 @@ int main(int argc, char **argv) {
 #endif
 
     battery_init();
-    stat_init();
+    /* stat_init(); */
     i2c_init();
     osc_init();
 
